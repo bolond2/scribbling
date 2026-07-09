@@ -1,0 +1,18 @@
+title: Your Site Name Here
+description: Notes on things I'm figuring out — home, kids' questions, and work when it's fresh.
+theme: minima
+
+# Shows newest posts first automatically (Jekyll default)
+permalink: /:year/:month/:day/:title/
+
+# Optional: group posts by category in the future if you want
+show_excerpts: true
+
+# Files/folders here are left out of the published site entirely —
+# they'll still be in your GitHub repo, just not live on the site.
+exclude:
+  - README.md
+  - docs/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
